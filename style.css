@@ -428,11 +428,12 @@ z-index: 999;}
   
   .main-container {
     max-width: var(--max-width);
-    display: grid;
+    display:grid;
     grid-gap: var(--base-padding);
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 5fr 5fr;
     margin: 0 auto;
     padding: 0 var(--base-padding);
+    margin-bottom: 200px;
   }
   
   @media screen and (min-width: 600px) {
