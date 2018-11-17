@@ -175,18 +175,15 @@
                             
                             <div class="col-sm-6">
                                 <div class="product-inner">
-                                    <h2 class="product-name">Bánh Tart ngon</h2>
-                                    <div class="product-inner-price">
-                                        <ins>35.000 đ</ins> <del>50.000 đ</del>
-                                    </div>    
                                     
-                                    <form action="" class="cart">
-                                        <div class="quantity">
-                                            <input type="number" size="4" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
-                                        </div>
-                                        <button class="add_to_cart_button" type="submit">Thêm vào giỏ hàng</button>
-                                    </form>   
-                                    
+                                    <div class="product">
+                
+                                        <img class="product__image" src="img/Tarts3.png" alt="" >
+                                        <h2><a href="single-product/Tart.html" class="product__name">Bánh Tart ngon</a></h2>
+                                        <h3 class="product__price">35 </h3> 
+                                        <button class="add_to_cart_button" data-action="ADD_TO_CART"  >Thêm sản phẩm</button>
+          
+                                 </div> 
                                     <div class="product-inner-category">
                                        
                                     </div> 
@@ -197,7 +194,7 @@
                                             <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Phản hồi</a></li>
                                         </ul>
                                         <div class="tab-content">
-                                            <div role="tabpanel" class="tab-pane fade in active" id="home">
+                      d                      <div role="tabpanel" class="tab-pane fade in active" id="home">
                                                 <h2>Miêu tả sẩn phẩm</h2>  
                                                 <p>Bánh được nhập khẩu từ nước Pháp ngon mê say</p>
 
@@ -389,6 +386,10 @@
             </div>
         </div>
     </div>
+    <section class="section">
+        <h2 class="text-center">Giỏ hàng</h2>
+        <div class="cart"></div>
+    </section>
     <div class="footer-bottom-area">
         <div class="container">
             <div class="row">
@@ -425,5 +426,7 @@
     
     <!-- Main Script -->
     <script src="../js/main.js"></script>
+    <script src="../main.js"></script>
+
   </body>
 </html>

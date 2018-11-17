@@ -175,17 +175,17 @@
                             
                             <div class="col-sm-6">
                                 <div class="product-inner">
-                                    <h2 class="product-name">Bánh Fruit Cake ngon</h2>
-                                    <div class="product-inner-price">
-                                        <ins>80.000 đ</ins> <del>100.000 đ</del>
+                                    <div class="product">
+                
+                                        <img class="product__image" src="img/product5.png" alt="" >
+                                        <h2><a href="single-product/FruitCake.html" class="product__name">Bánh Fruit Cake ngon</a></h2>
+                                        <h3 class="product__price">80 </h3> 
+                                        <button class="add_to_cart_button" data-action="ADD_TO_CART"  >Thêm sản phẩm</button>
+          
+                                 </div>
                                     </div>    
                                     
-                                    <form action="" class="cart">
-                                        <div class="quantity">
-                                            <input type="number" size="4" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
-                                        </div>
-                                        <button class="add_to_cart_button" type="submit">Thêm vào giỏ hàng</button>
-                                    </form>   
+                                   
                                     
                                     <div class="product-inner-category">
                                        
@@ -331,7 +331,10 @@
             </div>
         </div>
     </div>
-
+    <section class="section">
+        <h2 class="text-center">Giỏ hàng</h2>
+        <div class="cart"></div>
+    </section>
 
     <div class="footer-top-area">
         <div class="zigzag-bottom"></div>
@@ -425,5 +428,7 @@
     
     <!-- Main Script -->
     <script src="../js/main.js"></script>
+    <script src="../main.js"></script>
+
   </body>
 </html>

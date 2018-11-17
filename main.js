@@ -52,7 +52,7 @@ if (cart.length > 0) {
                     setTimeout(() => cartItemDOM.remove(), 250);
                     cart = cart.filter(cartItem => cartItem.name !== product.name);
                     localStorage.setItem('cart', JSON.stringify(cart));
-                    addToCartButtonDOM.innerText = 'Add To Cart';
+                    addToCartButtonDOM.innerText = 'Thêm sản phẩm';
                     addToCartButtonDOM.disabled = false;
                   }
 
@@ -70,7 +70,7 @@ if (cart.length > 0) {
                   setTimeout(() => cartItemDOM.remove(), 250);
                   cart = cart.filter(cartItem => cartItem.name !== product.name);
                   localStorage.setItem('cart', JSON.stringify(cart));
-                  addToCartButtonDOM.innerText = 'Add To Cart';
+                  addToCartButtonDOM.innerText = 'Thêm sản phẩm';
                   addToCartButtonDOM.disabled = false;
                 }
               });
@@ -139,7 +139,7 @@ addToCartButtonsDOM.forEach(addToCartButtonDOM => {
                   setTimeout(() => cartItemDOM.remove(), 250);
                   cart = cart.filter(cartItem => cartItem.name !== product.name);
                   localStorage.setItem('cart', JSON.stringify(cart));
-                  addToCartButtonDOM.innerText = 'Add To Cart';
+                  addToCartButtonDOM.innerText = 'Thêm sản phẩm';
                   addToCartButtonDOM.disabled = false;
                 }
 
@@ -157,7 +157,7 @@ addToCartButtonsDOM.forEach(addToCartButtonDOM => {
                 setTimeout(() => cartItemDOM.remove(), 250);
                 cart = cart.filter(cartItem => cartItem.name !== product.name);
                 localStorage.setItem('cart', JSON.stringify(cart));
-                addToCartButtonDOM.innerText = 'Add To Cart';
+                addToCartButtonDOM.innerText = 'Thêm sản phẩm';
                 addToCartButtonDOM.disabled = false;
               }
             });
