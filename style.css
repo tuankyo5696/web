@@ -648,6 +648,7 @@ z-index: 999;}
     display: flex;
     justify-content: space-between;
     margin-top: var(--base-padding);
+    margin-left:80px;
   }
   
   .overlay {
